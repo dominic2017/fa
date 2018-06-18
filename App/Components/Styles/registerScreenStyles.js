@@ -1,0 +1,107 @@
+import { StyleSheet } from 'react-native'
+import { Colors, Metrics, Fonts } from '../../Themes/'
+
+export default styles = StyleSheet.create({
+	mainForm: {
+		alignSelf: 'center',
+	},
+	option:{
+	    alignSelf: 'center',
+	 //	fontFamily: "normal",
+		fontSize: 20,
+  		fontWeight: "bold",
+		//fontStyle: "normal",
+		letterSpacing: 0,
+		textAlign: "left",
+		color: "#4a4a4a",
+		marginTop: 150,
+	},
+	registerButton: {
+	  marginTop: 7,
+	  alignSelf:'center',
+      width: 260,
+      borderRadius: 4,
+      backgroundColor: "#4990e2"
+	},
+	header: {
+	    alignSelf: 'center',
+	 	//fontFamily: "normal",
+		fontSize: 20,
+  		fontWeight: "bold",
+		//fontStyle: "normal",
+		letterSpacing: 0,
+		textAlign: "left",
+		color: "#4a4a4a",
+		marginTop: 35,
+	},
+	horizontalLayout: {
+        marginTop: 8,
+        margin:0,
+        flexDirection: 'row',
+	    borderWidth: 1,
+	    borderColor: '#979797',
+        paddingBottom: 10,
+        backgroundColor: '#fff',
+        aspectRatio: 6,
+	},
+	dispLabel: {
+	    height: 40,
+	    paddingTop: 10,
+	    paddingLeft: 5,
+		//fontFamily: "normal",
+		fontSize: 19,
+		fontWeight: "300",
+		//fontStyle: "normal",
+		letterSpacing: 0,
+		textAlign: "left",
+        color: "#000",
+	},
+	textInputName: {
+        alignSelf:'stretch',
+	    paddingTop: 7,
+	    flex: 1,
+		//fontFamily: "normal",
+		fontSize: 17,
+		fontWeight: "300",
+		//fontStyle: "normal",
+		letterSpacing: 0,
+		textAlign: "left",
+		color: "#646464",
+		paddingLeft:70,
+	},
+	textInputEmail: {
+        alignSelf:'stretch',
+	    paddingTop: 7,
+	    flex: 1,
+		//fontFamily: "normal",
+		fontSize: 17,
+		fontWeight: "300",
+		//fontStyle: "normal",
+		letterSpacing: 0,
+		textAlign: "left",
+		color: "#646464",
+		paddingLeft:74,
+	},
+	textInputPassword: {
+        alignSelf:'stretch',
+	    paddingTop: 7,
+	    flex: 1,
+		//fontFamily: "normal",
+		fontSize: 17,
+		fontWeight: "300",
+		//fontStyle: "normal",
+		letterSpacing: 0,
+		textAlign: "left",
+		color: "#646464",
+		paddingLeft:38,
+	},
+	lowerLayout: {
+	    paddingTop: 50,
+	    alignSelf: 'center',
+	    flexDirection: 'column',
+
+	},
+	drawer:{
+    backgroundColor: "green"
+    }
+});
